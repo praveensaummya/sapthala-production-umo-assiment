@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+
+
+.navigation-bar {
+    background-color: rgb(255, 254, 254);
+    overflow: hidden;
+    font-family:monospace;
+
+    padding: 10px 30px;
+   
+}
+
+.logo {
+    color: rgb(223, 23, 23);
+}
+
+
+
+.hero-section {
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-background {
+    background-image: url('/images/chili_board.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 102%;
+    height: 400px;
+    z-index: -1;
+    filter: brightness(70%);
+}
+.hero-content {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.hero-title{
+    font-size: 50px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+
+}
+
+.hero-description {
+    font-size: 25px;
+}
