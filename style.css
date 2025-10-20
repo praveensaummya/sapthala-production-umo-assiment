@@ -60,7 +60,6 @@ body {
 .promises-text{
     font-size: 30px;
     margin-bottom: 10px;
-    font-weight: bold;
     margin-left: 40px;
 }
 
@@ -102,8 +101,9 @@ body {
     height: 300px;
 }
 
-.price-section{
+.contact-section{
     flex: 1;
     height: 300px;
 }
+                
 
