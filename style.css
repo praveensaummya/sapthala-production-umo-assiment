@@ -9,12 +9,11 @@ body {
     background-color: rgb(224, 214, 214);
 }
 
-
+/* Navigation Bar Styles & Hero section Styles */
 .navigation-bar {
     background-color: rgb(255, 254, 254);
     overflow: hidden;
     font-family:monospace;
-
     padding: 10px 30px;
    
 }
@@ -23,14 +22,12 @@ body {
     color: rgb(223, 23, 23);
 }
 
-
-
 .hero-section {
    
     background-size: cover;
     background-position: center;
     height: 400px;
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
 }
@@ -45,15 +42,8 @@ body {
     left: 0;
     width: 100%;
     height: 400px;
-    z-index: -1;
+    z-index: -1; 
     filter: brightness(70%);
-}
-.hero-content {
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    padding: 50px 20px;
-
 }
 
 .hero-title{
@@ -66,3 +56,54 @@ body {
 .hero-description {
     font-size: 25px;
 }
+
+.promises-text{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.promises-list{
+    padding-left: 40px;          
+    list-style-position: outside;
+    margin-left: 20px;
+}
+
+.hero-content {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 20px;
+
+}
+.hero-content {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+/*column layout content section*/
+.content {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.promises-section{
+    flex: 1;
+    height: 300px;
+}
+
+.products-section{
+    flex: 2;
+    height: 300px;
+}
+
+.price-section{
+    flex: 1;
+    height: 300px;
+}
+
