@@ -268,7 +268,7 @@ body {
 
 }
 
-
+/*notification styling*/
 .toast-notification{
 
     position: fixed;
@@ -383,7 +383,7 @@ tr{
 }
 
 
-/* --- Add the Cart Shake Animation CSS --- */
+
 
 /* Define the shaking animation */
 @keyframes shake {
@@ -393,7 +393,7 @@ tr{
     75% { transform: translateX(-5px) rotate(-3deg); }
 }
 
-/* The class that applies the animation */
+/* Animation lasts 0.5 seconds */
 .shake-cart {
-    animation: shake 0.5s ease-in-out; /* Animation lasts 0.5 seconds */
+    animation: shake 0.5s ease-in-out; 
 }
