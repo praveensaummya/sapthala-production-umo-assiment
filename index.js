@@ -1,6 +1,6 @@
 const buyButtons = document.querySelectorAll('.buy-now-button');
 const toastElement = document.getElementById('toast');
-
+const cartIcon = document.getElementById('cart-icon')
 function showToast(message){
 
     toastElement.textContent = message;
@@ -25,6 +25,19 @@ buyButtons.forEach(button =>{
 
         console.log("button clicked");
         button.disabled = true;
+
+        cartIcon.classList.add('shake-cart')
+
+
+
+        setTimeout(() => {
+            cartIcon.classList.remove('shake-cart')
+            },500);
+        
+
+
+
+
     });
 
 });
